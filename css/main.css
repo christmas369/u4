@@ -1,0 +1,11 @@
+.main {
+    background-color: var(--bg-color);
+    background-image: url(../img/main-background.jfif);
+    background-size: cover;
+    background-blend-mode: multiply;
+    min-height: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
