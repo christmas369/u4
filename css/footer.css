@@ -1,0 +1,23 @@
+.footer {
+    padding: 45px 0;
+    background: var(--footer-bg);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.footer__text {
+    white-space: pre-line;
+    font-size: 12px;
+    font-weight: 500;
+}
+

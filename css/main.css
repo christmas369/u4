@@ -1,11 +1,44 @@
 .main {
-    background-color: var(--bg-color);
     background-image: url(../img/main-background.jfif);
+    background-position: center center;
     background-size: cover;
-    background-blend-mode: multiply;
     min-height: 732px;
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 229px 0 120px;
+    position: relative;
+
+}
+
+.main:before {
+    content: '';
+    position: absolute;
+    background-color: var(--bg-color);
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+} 
+
+.main__container {
+    max-width: 1050px;
+    z-index: 1;
+}
+.main__title {
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 35px;
+    line-height: normal;
+}
+
+.main__text {
+    font-size: 22px;
+    margin-bottom: 90px;
+    color: rgba(var(--text-color), var(--three-quarters-opacity));
+}
+
+.main__button {
+    padding: 12px 48px;
+    cursor: pointer;
 }

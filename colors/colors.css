@@ -1,6 +1,14 @@
 :root {
+    --transparent: #fff0;
     --bg-color: #2F324BD9;
     --text-color: 255, 255, 255;
     --half-opacity: .5;
+    --three-quarters-opacity: .75;
+    --four-fifth-opacity: .8;
     --button-bg: #15A9CB;
+    --button-shadow: #15A9CB48;
+    --advantages-bg: #F9F9F9;
+    --advantages-counter-bg: #23C7EC;
+    --order-link: #4A76A8;
+    --footer-bg: #2F324B;
 }
