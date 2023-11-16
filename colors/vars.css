@@ -1,0 +1,9 @@
+:root {
+    --contacts-font-tel: 23.85px;
+}
+
+@media( max-width: 1024px ){
+    :root {
+        --contacts-font-tel: 21px;
+    }
+}

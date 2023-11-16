@@ -42,3 +42,7 @@
     padding: 12px 48px;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+
+}

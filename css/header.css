@@ -19,7 +19,7 @@
 }
 
 .contacts__tel {
-    font-size: 23.85px;
+    font-size: var(--contacts-font-tel);
     line-height: normal;
     margin-bottom: 2.85px;
 }
@@ -33,5 +33,21 @@
 @media( min-width: 321px ){
     .call-button {
         display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        width: 60px;
+    }
+}
+
+@media ( max-width: 320px) {
+    .contacts {
+        display: none;
+    }
+
+    .call-button {
+        flex-shrink: 0;
     }
 }

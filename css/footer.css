@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.copyright {
+.footer-logo {
     display: flex;
     align-items: center;
     gap: 19px;
@@ -21,3 +21,28 @@
     font-weight: 500;
 }
 
+@media( min-width: 321px ){
+    .call-button {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media ( max-width: 320px) {
+    .contacts {
+        display: none;
+    }
+
+    .footer__container {
+        flex-wrap: wrap;
+    }
+
+    .copyright {
+        order: 3;
+        flex: 100%;
+        text-align: center;
+    }
+}
