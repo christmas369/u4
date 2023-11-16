@@ -17,11 +17,11 @@
 
 .footer__text {
     white-space: pre-line;
-    font-size: 12px;
+    font-size: var(--footer-text);
     font-weight: 500;
 }
 
-@media( min-width: 321px ){
+@media( min-width: 481px ){
     .call-button {
         display: none;
     }
@@ -31,18 +31,44 @@
 
 }
 
-@media ( max-width: 320px) {
-    .contacts {
-        display: none;
+@media ( max-width: 768px ) {
+    .footer {
+        padding: 25px 0 0;
     }
 
     .footer__container {
         flex-wrap: wrap;
+        row-gap: 25px;
+        padding: 0;
     }
 
     .copyright {
         order: 3;
         flex: 100%;
         text-align: center;
+        padding: 15px 0;
+        background: var(--copyright-bg);
+    }
+
+    .footer-logo {
+        padding-left: 30px;
+    }
+
+    .footer__contacts {
+        padding-right: 30px;
+    }
+}
+
+@media ( max-width: 480px ) {
+    .contacts {
+        display: none;
+    }
+
+    .footer-logo {
+        padding-left: 15px;
+    }
+
+    .footer__call-button {
+        padding-right: 15px;
     }
 }
