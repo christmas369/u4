@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 229px 0 120px;
+    padding: 226px 0 120px;
     position: relative;
 
 }
@@ -28,12 +28,12 @@
 .main__title {
     font-size: var(--main-title-font-size);
     font-weight: 900;
-    margin-bottom: 35px;
+    margin-bottom: 32px;
     line-height: normal;
 }
 
 .main__text {    
-    margin-bottom: 90px;
+    margin-bottom: 89px;
     color: rgba(var(--text-color), var(--three-quarters-opacity));
 }
 

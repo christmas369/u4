@@ -2,10 +2,9 @@
     background-image: url(../img/order-background.jfif);
     background-position: center center;
     background-size: cover;
-    /*display: flex;
-    justify-content: center;*/
     text-align: center;
     position: relative;
+    padding: 70px 0 66.5px;
 }
 
 .order:before {
@@ -21,11 +20,15 @@
 .order__container {
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .order__title {
-    margin-bottom: 17px;
+    margin-bottom: 20px;
+    padding-right: 24px;
 }
 
 .order__subtitle {
@@ -34,25 +37,24 @@
 }
 
 .order__form {
-    display: flex;
-    flex-direction: column;
     max-width: 423px;
-    margin: 0 auto 50px;
+    margin-bottom: 49px;
 }
 
 .order__input {
-    padding: 9px 25px;
+    padding: 9.5px 25px;
     border-radius: 50px;
-    outline: 1.382px solid rgb(var(--text-color));
+    outline: 2px solid rgb(var(--text-color));
     outline-offset: -1px;
     background: var(--transparent);
     border: none;
     color: rgb(var(--text-color));
     line-height: normal;
+    width: 100%;
 }
 
 .order__input:not(:last-child) {
-    margin-bottom: 21px;
+    margin-bottom: 19.5px;
 }
 
 .order__input::placeholder {
@@ -62,7 +64,7 @@
 
 .order__button {
     padding: 12px 38px;
-    margin-bottom: 50px;
+    margin-bottom: 49px;
 }
 
 .order__text {
@@ -72,6 +74,7 @@
 .order__link {
     color: var(--order-link);
     border-bottom: 1px solid var(--order-link);
+    transition: all .5s ease;
 }
 
 .order__link:hover {

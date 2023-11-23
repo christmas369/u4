@@ -91,7 +91,7 @@ iframe {
 .title {
     font-size: var(--title-font-size);
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.1;
     text-align: center;
 }
 

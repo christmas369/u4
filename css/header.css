@@ -15,17 +15,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.call {
     font-style: normal;
 }
 
-.contacts__tel {
+.call__tel {
     font-size: var(--contacts-font-tel);
-    line-height: normal;
-    margin-bottom: 2.85px;
+    line-height: 1.4;
+    margin-bottom: 0;
     transition: all .5s ease;
 }
 
-.contacts__tel:hover {
+.call__tel:hover {
     color: var(--button-bg);
 }
 
@@ -38,6 +41,7 @@
     line-height: normal;
     border-bottom: 1px solid rgba(var(--text-color), var(--half-opacity));
     transition: all .5s ease;
+    padding-bottom: 2px;
 }
 
 .contacts__scroll:hover {
@@ -48,12 +52,12 @@
     border-bottom:1px solid var(--order-link);
 }
 
-.call-svg {
+.call__svg {
     display: block;
 }
 
 @media( min-width: 481px ){
-    .call-button {
+    .contacts__mob {
         display: none;
     }
 }
@@ -81,22 +85,22 @@
         width: 30px;
     }
 
-    .contacts {
+    .contacts__desktop {
         display: none;
     }
 
-    .call-button {
+    .call__button {
         position: relative;
         flex-shrink: 0;
         outline: 1px solid var(--transparent);
         transition: all .5s ease;
     }
 
-    .call-button:hover {
+    .call__button:hover {
         color: var(--order-link);
     }
 
-    .call-button:focus:before {
+    .call__button:focus:before {
         content: '';
         position: absolute;
         outline: 1px solid var(--order-link);

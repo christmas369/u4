@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 31px 0 30px;
 }
 
 .footer-logo {
@@ -21,11 +22,15 @@
     font-weight: 500;
 }
 
+.call {
+    font-style: normal;
+}
+/*
 @media( min-width: 481px ){
-    .call-button {
+    .call__button {
         display: none;
     }
-}
+}*/
 
 @media (max-width: 1024px) {
 
@@ -60,15 +65,15 @@
 }
 
 @media ( max-width: 480px ) {
-    .contacts {
+    /*.contacts {
         display: none;
-    }
+    }*/
 
     .footer-logo {
         padding-left: 15px;
     }
 
-    .footer__call-button {
+    .footer__contacts {
         padding-right: 15px;
     }
 }
